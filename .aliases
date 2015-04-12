@@ -1,0 +1,36 @@
+# ips
+alias ip="dig +short myip.opendns.com @resolver1.opendns.com"
+alias localip="ipconfig getifaddr en1"
+alias ips="ifconfig -a | grep -o 'inet6\? \(addr:\)\?\s\?\(\(\([0-9]\+\.\)\{3\}[0-9]\+\)\|[a-fA-F0-9:]\+\)' | awk '{ sub(/inet6? (addr:)? ?/, \"\"); print }'"
+
+# Flush Directory Service cache
+alias flush="dscacheutil -flushcache && killall -HUP mDNSResponder"
+
+# Clean up LaunchServices to remove duplicates in the “Open With” menu
+alias lscleanup="/System/Library/Frameworks/CoreServices.framework/Frameworks/LaunchServices.framework/Support/lsregister -kill -r -domain local -domain system -domain user && killall Finder"
+
+# View HTTP traffic
+alias sniff="sudo ngrep -d 'en1' -t '^(GET|POST) ' 'tcp and port 80'"
+alias httpdump="sudo tcpdump -i en1 -n -s 0 -w - | grep -a -o -E \"Host\: .*|GET \/.*\""
+
+# Lock the screen (when going AFK)
+alias afk="/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resources/CGSession -suspend"
+
+# Random fact of the day
+alias fact="curl -s randomfunfacts.com | grep '<i>' | sed 's/.*<i>\(.*\)<\/i>.*/\1/'"
+
+# Start HTTP server from current directory
+alias server='open http://localhost:1337 && python -m SimpleHTTPServer 1337'
+
+# Opens Sourcetree with the current directory
+alias sourcetree='open -a SourceTree'
+
+# Open Finder in the current directory
+alias f='open -a Finder ./' 
+
+# youtube-dl audio - http://rg3.github.io/youtube-dl/
+alias yt='youtube-dl --extract-audio --audio-format mp3'
+
+# Google Public DNS fix
+alias dns-fix='sudo networksetup -setdnsservers Wi-Fi 8.8.8.8 8.8.4.4'
+alias dns-reset='sudo networksetup -setdnsservers Wi-Fi empty'
