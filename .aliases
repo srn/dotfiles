@@ -34,3 +34,12 @@ alias yt='youtube-dl --extract-audio --audio-format mp3'
 # Google Public DNS fix
 alias dns-fix='sudo networksetup -setdnsservers Wi-Fi 8.8.8.8 8.8.4.4'
 alias dns-reset='sudo networksetup -setdnsservers Wi-Fi empty'
+
+# cp is outdated, alias rsync
+alias cp='rsync -ah --progress'
+
+# editor
+alias editor='open -a Webstorm'
+
+# sleep
+alias sleep='pmset sleepnow'
