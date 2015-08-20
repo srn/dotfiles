@@ -105,6 +105,10 @@ defaults write com.apple.finder EmptyTrashSecurely -bool true
 # Show the ~/Library folder
 chflags nohidden ~/Library
 
+# Change default screenshot naming
+defaults write com.apple.screencapture name "screenshot"
+defaults write com.apple.screencapture "include-date" 0
+
 ###############################################################################
 # Time Machine                                                                #
 ###############################################################################
