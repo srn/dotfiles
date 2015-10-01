@@ -23,7 +23,7 @@ alias fact="curl -s randomfunfacts.com | grep '<i>' | sed 's/.*<i>\(.*\)<\/i>.*/
 alias server='open http://localhost:1337 && python -m SimpleHTTPServer 1337'
 
 # Opens Sourcetree with the current directory
-alias sourcetree='open -a SourceTree'
+alias st='open -a SourceTree'
 
 # Open Finder in the current directory
 alias f='open -a Finder ./' 
