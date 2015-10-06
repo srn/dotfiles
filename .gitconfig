@@ -1,20 +1,17 @@
-
-[hub]
-protocol = https
-
 [core]
-	excludesfile = /opt/boxen/config/git/gitignore
-
-[credential]
-helper = /opt/boxen/bin/boxen-git-credential
+	excludesfile = /Users/srn/.gitignore_global
 [difftool "sourcetree"]
 	cmd = /Applications/DiffMerge.app/Contents/MacOS/DiffMerge --nosplash \"$LOCAL\" \"$REMOTE\"
-	path =
+	path = 
 [mergetool "sourcetree"]
 	cmd = /Applications/DiffMerge.app/Contents/MacOS/DiffMerge --merge --result=\"$MERGED\" \"$LOCAL\" \"$BASE\" \"$REMOTE\"
 	trustExitCode = true
 [user]
 	name = Søren Brokær
 	email = root@srn.io
-[color]
-	ui = true
+[alias]
+	s = status
+	p = push --tags
+	r = reset --soft HEAD~1
+[branch]
+	autosetuprebase = always
