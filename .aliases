@@ -39,7 +39,10 @@ alias dns-reset='sudo networksetup -setdnsservers Wi-Fi empty'
 alias cp='rsync -ah --progress'
 
 # editor
-alias editor='open -a Webstorm'
+alias editor='/usr/local/bin/wstorm'
 
 # sleep
 alias sleep='pmset sleepnow'
+
+# better ls
+alias ll='ls -lGaf'
