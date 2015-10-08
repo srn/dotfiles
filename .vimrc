@@ -16,9 +16,9 @@ Plugin 'VundleVim/Vundle.vim'
 
 " custom plugins
 Plugin 'editorconfig/editorconfig-vim'
+Plugin 'yosiat/oceanic-next-vim'
 Plugin 'pangloss/vim-javascript'
 Plugin 'mxw/vim-jsx'
-Plugin 'yosiat/oceanic-next-vim'
 
 Plugin 'scrooloose/nerdtree'
 
