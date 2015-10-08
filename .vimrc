@@ -47,3 +47,6 @@ set scrolloff=3
 " Don’t show the intro message when starting Vim
 set shortmess=atI
 
+" Enable mouse in all modes
+set mouse=a
+
