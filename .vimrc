@@ -4,8 +4,8 @@ filetype off                  " required
 " https://github.com/pangloss/vim-javascript#a-quick-note-on-regexes
 syntax enable
 
-:set number
-:set cursorline
+set number
+set cursorline
 
 " set the runtime path to include Vundle and initialize
 set rtp+=~/.vim/bundle/Vundle.vim
