@@ -20,6 +20,7 @@ brew tap homebrew/services
 brew install wget
 brew install htop
 brew install nginx
+brew install dnsmasq
 brew install rabbitmq
 brew install redis
 
