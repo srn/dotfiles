@@ -44,3 +44,6 @@ nmap <silent> <A-Right> :wincmd l<CR>
 " Start scrolling three lines before the horizontal window border
 set scrolloff=3
 
+" Don’t show the intro message when starting Vim
+set shortmess=atI
+
