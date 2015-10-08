@@ -41,3 +41,6 @@ nmap <silent> <A-Down> :wincmd j<CR>
 nmap <silent> <A-Left> :wincmd h<CR>
 nmap <silent> <A-Right> :wincmd l<CR>
 
+" Start scrolling three lines before the horizontal window border
+set scrolloff=3
+
