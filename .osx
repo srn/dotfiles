@@ -109,6 +109,9 @@ chflags nohidden ~/Library
 defaults write com.apple.screencapture name "screenshot"
 defaults write com.apple.screencapture "include-date" 0
 
+# Remove shadow from screenshots
+defaults write com.apple.screencapture disable-shadow -bool true
+
 ###############################################################################
 # Time Machine                                                                #
 ###############################################################################
