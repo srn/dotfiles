@@ -46,3 +46,6 @@ alias sleep='pmset sleepnow'
 
 # better ls
 alias ll='ls -lGaf'
+
+# better cat
+alias cat='ccat'

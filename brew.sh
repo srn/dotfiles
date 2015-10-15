@@ -19,6 +19,7 @@ brew tap homebrew/services
 
 brew install wget
 brew install htop
+brew install ccat
 brew install nginx
 brew install dnsmasq
 brew install rabbitmq
