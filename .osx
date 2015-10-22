@@ -112,6 +112,9 @@ defaults write com.apple.screencapture "include-date" 0
 # Remove shadow from screenshots
 defaults write com.apple.screencapture disable-shadow -bool true
 
+# Disable 10.11 cursor maginification
+defaults write ~/Library/Preferences/.GlobalPreferences CGDisableCursorLocationMagnification -bool YES
+
 ###############################################################################
 # Time Machine                                                                #
 ###############################################################################
