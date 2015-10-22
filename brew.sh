@@ -20,10 +20,10 @@ brew tap homebrew/services
 brew install wget
 brew install htop
 brew install ccat
+brew install gnu-sed --default-names
 brew install nginx
 brew install dnsmasq
 brew install rabbitmq
 brew install redis
-
 # Remove outdated versions from the cellar.
 brew cleanup
