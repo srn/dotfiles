@@ -10,4 +10,6 @@ plugins=(git nvm z zsh-syntax-highlighting)
 source $ZSH/oh-my-zsh.sh
 
 # custom configuration
+source ~/.exports
+source ~/.functions
 source ~/.aliases
