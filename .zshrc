@@ -7,6 +7,8 @@ export PURE_CMD_MAX_EXEC_TIME=1
 
 plugins=(git nvm rbenv z zsh-syntax-highlighting)
 
+export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+
 source $ZSH/oh-my-zsh.sh
 
 # custom configuration
