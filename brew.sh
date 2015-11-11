@@ -25,5 +25,7 @@ brew install nginx
 brew install dnsmasq
 brew install rabbitmq
 brew install redis
+brew install rbenv ruby-build
+
 # Remove outdated versions from the cellar.
 brew cleanup
