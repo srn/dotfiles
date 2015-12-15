@@ -45,7 +45,7 @@ alias editor='/usr/local/bin/wstorm'
 alias sleep='pmset sleepnow'
 
 # better ls
-alias ll='ls -lGaf'
+alias ll='ls -lah'
 
 # better cat
 alias cat='ccat'
