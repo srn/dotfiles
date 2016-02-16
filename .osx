@@ -115,6 +115,9 @@ defaults write com.apple.screencapture disable-shadow -bool true
 # Disable 10.11 cursor maginification
 defaults write ~/Library/Preferences/.GlobalPreferences CGDisableCursorLocationMagnification -bool YES
 
+# Hide all icons on the desktop
+defaults write com.apple.finder CreateDesktop false
+
 ###############################################################################
 # Time Machine                                                                #
 ###############################################################################
