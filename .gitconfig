@@ -1,18 +1,14 @@
 [core]
 	excludesfile = /Users/srn/.gitignore_global
-
 [difftool "sourcetree"]
 	cmd = /Applications/DiffMerge.app/Contents/MacOS/DiffMerge --nosplash \"$LOCAL\" \"$REMOTE\"
 	path =
-
 [mergetool "sourcetree"]
 	cmd = /Applications/DiffMerge.app/Contents/MacOS/DiffMerge --merge --result=\"$MERGED\" \"$LOCAL\" \"$BASE\" \"$REMOTE\"
 	trustExitCode = true
-
 [user]
 	name = Søren Brokær
 	email = root@srn.io
-
 [alias]
 	s = status -s
 	p = push --tags
@@ -26,7 +22,6 @@
 
 	# List contributors with number of commits
 	contributors = shortlog --summary --numbered
-
 [branch]
 	autosetuprebase = always
 [pager]
