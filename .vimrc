@@ -19,6 +19,12 @@ Plugin 'editorconfig/editorconfig-vim'
 Plugin 'yosiat/oceanic-next-vim'
 Plugin 'pangloss/vim-javascript'
 Plugin 'mxw/vim-jsx'
+Plugin 'mv/mv-vim-nginx'
+Plugin 'tpope/vim-markdown'
+Plugin 'fatih/vim-go'
+Plugin 'tpope/vim-git'
+Plugin 'klen/python-mode'
+Plugin 'vim-ruby/vim-ruby'
 
 Plugin 'scrooloose/nerdtree'
 
